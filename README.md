@@ -2,7 +2,7 @@
 
 一个更贴近真实学习节奏的日语单词手帐应用。
 
-`Kotoba Note` 用 `PySide6 + SQLite + Janome` 构建，围绕课文拆词、词汇整理、复习、自测、错题回看和学习报告，尽量把“记单词”做成更顺手、更有人味的长期学习流程。
+`Kotoba Note` 基于 `PySide6 + SQLite + Janome` 构建，围绕课文拆词、词汇整理、复习、自测、错题回看和学习报告，尽量把“记单词”做成更顺手、更有人味的长期学习流程。
 
 ## 主要功能
 
@@ -26,9 +26,14 @@ python main.py
 app/
   core/        核心学习逻辑、数据存储
   ui/          主界面、导航、组件、样式
-main.py        程序入口
+docs/          项目文档与架构说明
 tests/         基础测试
+main.py        程序入口
 ```
+
+## 文档入口
+
+- [详细功能与技术架构报告](docs/architecture-report.md)
 
 ## 当前阶段
 
